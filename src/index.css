@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #323334;
+  background-color: #1a202c;
+}
+.btn {
+  @apply bg-orange rounded transform hover:scale-105 focus:ring-2 duration-200  px-3 focus:outline-none focus:ring-violet-500 py-1.5 text-white border self-end focus:border-transparent focus:ring-offset-2;
 }
